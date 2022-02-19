@@ -3,6 +3,10 @@ class Driver {
         this.name = name;
     }
 
+    static create({name}){
+        return new Driver(name);
+    }
+
 }
 
-module.exports = Driver
+module.exports = Driver 
